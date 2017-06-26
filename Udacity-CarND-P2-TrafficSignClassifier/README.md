@@ -1,4 +1,3 @@
-
 # Term 1 Project 2 - Traffic Sign Recognition
 
 The goal of this project is building a convolutional neural network to recognize traffic sign.
@@ -108,6 +107,10 @@ Dropout help to prevent overfitting when I was trying to add more complexity int
 Here are the German traffic signs that I found on the web:
 
 ![new_data](img/new_data.png)
+
+At a glance, 2 out of 10 are difficult to classify. No.5 speed limit (80km/h) sign has a blurred number which may confuse the model and predict as a speed limit sign with wrong speed. No.31 Wild animals crossing is dark hidden within the environmet, so potential it will be predicted as other signs that also having dark background.
+
+For other images, key components are clear to be identified.
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
