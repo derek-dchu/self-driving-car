@@ -120,10 +120,12 @@ I finally randomly shuffled the data set and put 25% of the data into a validati
 
 I used this training data for training the model. The validation set helped determine if the model was over or under fitting. The ideal number of epochs was 10 as evidenced by validation accuracy. I used an adam optimizer so that manually training the learning rate wasn't necessary.
 
-# Final Result
+# Final Results
 ## Normal Track
+![track1](img/track1.gif?raw=true "Track 1")
 
-## Challenge Track
+## Challenge Track 1
+![track2](img/track2.gif?raw=true "Track 2")
 
 # Reference
-End to End Learning for Self-Driving Cars, Nvidia, [Link](http://images.nvidia.com/content/tegra/automotive/images/2016/solutions/pdf/end-to-end-dl-using-px.pdf)
+* End to End Learning for Self-Driving Cars, Nvidia, [Link](http://images.nvidia.com/content/tegra/automotive/images/2016/solutions/pdf/end-to-end-dl-using-px.pdf)
